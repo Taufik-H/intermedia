@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Space Grotesk", sans-serif;
+}
+.max-container {
+    @apply max-w-[1440px];
+}
+
+.p-container {
+    @apply px-6 md:px-20;
+}
+
+.flexBetween {
+    @apply flex justify-between;
+}
+.flexCenter {
+    @apply flex justify-center;
+}
+.text-space {
+    font-family: "Space Grotesk", sans-serif;
+}
